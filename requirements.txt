@@ -1,0 +1,17 @@
+# Core API framework
+fastapi
+
+# ASGI server to run the FastAPI app
+uvicorn[standard]
+
+# Optional but recommended for data validation
+pydantic
+
+# For testing endpoints (optional)
+httpx
+
+# For automatic reloading and debugging in development (comes with uvicorn[standard])
+watchgod
+
+# CORS support (if your frontend/backend are on different domains)
+python-multipart
